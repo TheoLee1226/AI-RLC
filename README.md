@@ -45,18 +45,19 @@ This allows the model to learn physically consistent behavior.
 AI-RLC
 │
 ├── RLCpinn_simulation.ipynb
-│   Generate simulated RLC circuit data
+│   Use PINN to simulate RLC circuit data
 │
 ├── RLCpinn_fit.ipynb
 │   Train PINN model to fit circuit behavior
 │
 ├── RLCpinn_predict.ipynb
-│   Use the trained model to predict system response
+│   Train PINN model to predict circuit behavior
 │
 ├── RLCpinn_predict_compare.ipynb
-│   Compare PINN predictions with simulation results
+│   Compare PINN predictions and model without PINN
 │
 └── README.md
+```
 
 ---
 
@@ -106,9 +107,8 @@ This ensures the model predictions satisfy the **RLC differential equation**.
 
 Possible applications include:
 
-- Circuit system identification  
-- Sensor modeling  
-- Electrical system prediction  
+- Modeling  
+- System prediction  
 - Physics-guided machine learning research  
 
 ---
@@ -118,9 +118,9 @@ Possible applications include:
 Potential improvements:
 
 - Real experimental data integration  
-- Parameter estimation of $R$, $L$, $C$  
 - Noise-robust PINN training  
-- Comparison with classical ODE solvers  
+- Comparison with classical ODE solvers
+- Solving complex physical systems governed by differential equations
 
 ---
 

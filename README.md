@@ -41,22 +41,22 @@ This allows the model to learn physically consistent behavior.
 
 # Repository Structure
 
+```text
 AI-RLC
 │
 ├── RLCpinn_simulation.ipynb
-│ Generate simulated RLC circuit data
+│   Generate simulated RLC circuit data
 │
 ├── RLCpinn_fit.ipynb
-│ Train PINN model to fit circuit behavior
+│   Train PINN model to fit circuit behavior
 │
 ├── RLCpinn_predict.ipynb
-│ Use the trained model to predict system response
+│   Use the trained model to predict system response
 │
 ├── RLCpinn_predict_compare.ipynb
-│ Compare PINN predictions with simulation results
+│   Compare PINN predictions with simulation results
 │
 └── README.md
-
 
 ---
 
